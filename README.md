@@ -1,73 +1,84 @@
-# Hi, I'm Sahvendra
+<div align="center">
 
-I build AI-powered systems with a focus on retrieval, agent workflows, security boundaries, and reliable backend engineering.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Sahvendra;Backend+Engineer;AI+%2F+ML+Enthusiast;B.Tech+%40+IIT+Kharagpur)](https://git.io/typing-svg)
 
-My recent work explores how AI agents can reason over documents, interact with tools, and operate safely when real-world decisions are involved.
+**Building reliable backend systems, AI agents, and scalable infrastructure.**
+</div>
 
-## Focus Areas
+<br/>
 
-- Agentic AI systems and tool-using workflows
-- Retrieval-Augmented Generation, CRAG, FAISS, and evaluation pipelines
-- FastAPI services, streaming APIs, and production-minded Python backends
-- Zero-trust authorization patterns for agent-driven commerce
-- Systems engineering, reliability, rate limiting, and performance constraints
+## 👨‍💻 About Me
 
-## Featured Work
+```python
+class Sahvendra:
+    def __init__(self):
+        self.education = "B.Tech @ IIT Kharagpur"
+        self.focus     = ["Backend Systems", "AI/ML", "System Design"]
+        self.stack     = ["Python", "C/C++", "TypeScript"]
+        self.interests = ["Distributed Systems", "RAG / LLMs", "Developer Tools"]
 
-| Project | What it does | Stack |
-|---|---|---|
-| [VILR](https://github.com/Sahvendra7/VILR) | A zero-trust authorization gateway for agent-driven payments, separating AI intent from deterministic payment approval. | Python, OPA, Redis, ECDSA, Docker |
-| [Corrective RAG Academic Analyzer](https://github.com/Sahvendra7/corrective-RAG-academic-analyser) | Academic-paper analyzer using corrective RAG, retrieval grading, web-search fallback, streaming responses, and hallucination checks. | Python, FastAPI, LangGraph, FAISS, Gemini, Streamlit |
-| [generative-ui](https://github.com/Sahvendra7/generative-ui) | A deployed TypeScript/Next.js project exploring generative user-interface patterns. | TypeScript, Next.js, JavaScript, CSS |
-| [plivo-systems-24MI10091](https://github.com/Sahvendra7/plivo-systems-24MI10091) | A systems-engineering implementation for reliable real-time UDP media delivery over packet loss and delay constraints. | Python, C, Makefile |
+    def build_philosophy(self):
+        return (
+            "I build systems where AI is powerful but observable, "
+            "bounded by clear rules, and backed by reliable architecture."
+        )
 
-## Toolbox
+    def current_status(self):
+        return "Actively improving my DSA, backend, systems, and AI skills."
+```
 
-**Languages:** Python, TypeScript, JavaScript, C  
-**AI/ML:** LangGraph, FAISS, sentence-transformers, Gemini, RAG evaluation  
-**Backend:** FastAPI, REST APIs, Server-Sent Events, Redis  
-**Frontend:** Next.js, React, Streamlit, CSS  
-**Systems:** Docker, Make, UDP networking, rate limiting, idempotency, policy enforcement  
-**Security:** Zero-trust design, ECDSA signatures, audit trails, deterministic authorization
+<br/>
 
-## What I'm Building Toward
+## 🛠️ Tech Stack
 
-I am especially interested in software where AI is powerful, but not uncontrolled: systems where models can assist, reason, search, and generate, while the final execution path is observable, testable, and bounded by clear rules.
+<div align="center">
 
-That shows up in my projects as:
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-- RAG pipelines with retrieval grading and answer verification
-- Agent payment flows with cryptographic and policy-based approval
-- APIs that stream reasoning and responses in real time
-- Reliability work under strict latency, bandwidth, and correctness constraints
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-## GitHub Snapshot
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-![Sahvendra's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sahvendra7&show_icons=true&hide_border=true&theme=default)
+</div>
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sahvendra7&layout=compact&hide_border=true)
+<br/>
 
-## Connect
+## 🚀 Featured Projects
 
-- GitHub: [@Sahvendra7](https://github.com/Sahvendra7)
-- Email: [shyamajanidhaka@gmail.com](mailto:shyamajanidhaka@gmail.com)
+| Project & Link | Description | Technologies |
+| :--- | :--- | :--- |
+| 📚 **[Corrective RAG Academic Analyzer](https://github.com/Sahvendra7/corrective-RAG-academic-analyser)** | Academic paper analyzer using corrective RAG, retrieval grading, web-search fallback, and hallucination checks. | `Python`, `FastAPI`, `LangGraph`, `FAISS` |
+| 🛡️ **[VILR](https://github.com/Sahvendra7/VILR)** | Zero-trust authorization gateway for agent-driven payments, separating AI intent from deterministic payment approval. | `Python`, `Redis`, `Docker`, `OPA` |
+| 🤖 **[BossConsole](https://github.com/Sahvendra7/BossConsole)** | Multi-platform harness for AI agents featuring a native, multi-threaded operator's console with real browser/terminal access. | `JVM`, `AI Agents`, `MCP Tools` |
+| ⚙️ **[Systems Engineering / UDP](https://github.com/Sahvendra7/plivo-systems-24MI10091)** | Reliable real-time UDP media delivery implementation addressing packet loss and delay constraints. | `C`, `Python`, `Makefile` |
+| 🚦 **[Rate-Limiter](https://github.com/Sahvendra7/Rate-Limiter)** | Systems engineering project exploring idempotency, rate limiting, and performance constraints. | `Python` |
 
----
+<br/>
 
-Always learning, always building, and usually happiest when a rough idea starts turning into a working system.
-## Hi there 👋
+## 📊 GitHub Stats
 
-<!--
-**Sahvendra7/Sahvendra7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Sahvendra7&show_icons=true&hide_border=true&theme=tokyonight&icon_color=38BDF8" alt="Sahvendra's GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahvendra7&layout=compact&hide_border=true&theme=tokyonight" alt="Top Languages" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sahvendra7&hide_border=true&theme=tokyonight&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
+
+</div>
+
+<br/>
+<div align="center">
+  <sub>Building reliable systems line by line.</sub>
+</div>
