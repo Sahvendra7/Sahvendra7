@@ -15,8 +15,8 @@ I focus on designing systems where AI is powerful but observable—ensuring that
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong>🏗️ GraphRAG & AI Pipelines</strong><br/>
-      PostgreSQL-native GraphRAG, temporal fact reconciliation, corrective RAG, and LangGraph workflows.
+      <strong>🏗️ Agent Workflows & RAG</strong><br/>
+      Deterministic claim derivation, registry ground-truth, corrective RAG, and LangGraph pipelines.
     </td>
     <td width="50%" valign="top">
       <strong>⚙️ Backend Architecture</strong><br/>
@@ -26,11 +26,11 @@ I focus on designing systems where AI is powerful but observable—ensuring that
   <tr>
     <td width="50%" valign="top">
       <strong>🛡️ Systems & Security</strong><br/>
-      Zero-trust payment gateways, deterministic claim derivation, rate limiting, and UDP networking.
+      Zero-trust payment gateways, cryptographic audit trails, rate limiting, and UDP networking.
     </td>
     <td width="50%" valign="top">
-      <strong>🚀 Systems & Tools</strong><br/>
-      Advanced DSA, JVM/Kotlin agent harnesses, terminal emulators, and open-source contributions.
+      <strong>🌐 Open Source Engineering</strong><br/>
+      Contributing upstream to JVM/Kotlin agent harnesses, GraphRAG engines, and auth proxies.
     </td>
   </tr>
 </table>
@@ -59,12 +59,24 @@ I focus on designing systems where AI is powerful but observable—ensuring that
 
 | Project | Description | Technologies |
 | :--- | :--- | :--- |
-| 🧠 **[Post-Graph RAG](https://github.com/Sahvendra7/post-graph-rag)** | High-precision GraphRAG native to PostgreSQL—fuses vector similarity with temporal knowledge graphs to handle evolving facts. | `Python`, `PostgreSQL`, `pgvector`, `GraphRAG` |
 | 🕵️ **[Signalpost Agent](https://github.com/Sahvendra7/signalpost-agent)** | Resilient autonomous research agent emitting deterministic claims with Brønnøysund registry verification and SHA-256 byte provenance. | `Python`, `uv`, `Data Pipelines` |
 | 📚 **[Corrective RAG Analyzer](https://github.com/Sahvendra7/corrective-RAG-academic-analyser)** | Academic paper analyzer using corrective RAG, retrieval grading, web-search fallback, and hallucination checks. | `Python`, `FastAPI`, `LangGraph`, `FAISS` |
 | 🛡️ **[VILR](https://github.com/Sahvendra7/VILR)** | Zero-trust authorization gateway for agent-driven payments, separating AI intent from deterministic payment approval. | `Python`, `Redis`, `Docker`, `OPA` |
-| 🤖 **[BossConsole & BossTerm](https://github.com/Sahvendra7/BossConsole)** | Multi-platform harness for AI agents featuring a multi-threaded JVM operator console, pure Kotlin terminal emulator, and MCP tools. | `Kotlin`, `JVM`, `AI Agents`, `MCP` |
 | ⚙️ **[UDP Media Delivery](https://github.com/Sahvendra7/plivo-systems-24MI10091)** | Reliable real-time UDP media delivery implementation addressing packet loss and delay constraints. | `C`, `Python`, `Makefile` |
+| 🚦 **[Rate-Limiter](https://github.com/Sahvendra7/Rate-Limiter)** | High-throughput distributed rate limiting implementation exploring token buckets, sliding windows, and idempotency. | `Python`, `Redis` |
+
+---
+
+### 🌐 Open Source Contributions
+
+*Actively contributing to open-source developer tooling, agent harnesses, and RAG ecosystems:*
+
+| Project | Upstream Repository | Contribution Focus |
+| :--- | :--- | :--- |
+| **BossConsole** | [`risa-labs-inc/BossConsole`](https://github.com/risa-labs-inc/BossConsole) | Plugin lifecycle / coroutine teardown, MCP observation contracts, crash containment, and UI thread safety. |
+| **Post-Graph RAG** | [`crajah/post-graph-rag`](https://github.com/crajah/post-graph-rag) | Temporal interval query support for months, half-years, and fiscal periods in PostgreSQL-native GraphRAG. |
+| **RAG-framework** | [`adaumsilva/RAG-framework`](https://github.com/adaumsilva/RAG-framework) | Recursive character text chunking and OpenAI embedder integration. |
+| **OAuth2 Proxy** | [`oauth2-proxy/oauth2-proxy`](https://github.com/oauth2-proxy/oauth2-proxy) | Identity header propagation mechanisms for NGINX Ingress forward authentication. |
 
 ---
 
