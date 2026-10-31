@@ -1,8 +1,14 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=header&color=0:0f172a,100:38bdf8" width="100%" alt="" />
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+Sahvendra;Backend+%26+Systems+Engineer;AI+%2F+ML+Enthusiast;B.Tech+%40+IIT+Kharagpur)](https://git.io/typing-svg)
 
 **Building reliable backend systems, AI agents, and scalable infrastructure.**
+
+[![Profile views](https://komarev.com/ghpvc/?username=Sahvendra7&style=flat-square&color=38bdf8&label=profile+views)](https://github.com/Sahvendra7)
+[![Followers](https://img.shields.io/github/followers/Sahvendra7?style=flat-square&color=38bdf8&logo=github&label=followers)](https://github.com/Sahvendra7?tab=followers)
+[![Stars](https://img.shields.io/github/stars/Sahvendra7?style=flat-square&color=38bdf8&logo=github&label=stars&affiliations=OWNER)](https://github.com/Sahvendra7?tab=repositories)
 
 </div>
 
@@ -90,5 +96,30 @@ I focus on designing systems where AI is powerful but observable—ensuring that
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sahvendra7&theme=tokyonight" alt="Top Languages" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sahvendra7&theme=tokyonight" alt="GitHub Stats" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Sahvendra7&theme=tokyonight&hide_border=true&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
+
+</div>
+
+---
+
+### ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sahvendra7/Sahvendra7/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sahvendra7/Sahvendra7/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/Sahvendra7/Sahvendra7/output/snake-dark.svg" alt="Snake eating my contribution graph" />
+</picture>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:38bdf8,100:0f172a" width="100%" alt="" />
 
 </div>
