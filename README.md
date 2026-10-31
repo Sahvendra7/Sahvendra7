@@ -78,6 +78,10 @@ Each card shows how the project works. Amber is model output, blue is data, gree
 **Latest pull requests and issues**
 
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#1](https://github.com/Sahvendra7/Sahvendra7/pull/1) in [Sahvendra7/Sahvendra7](https://github.com/Sahvendra7/Sahvendra7)
+2. 💪 Opened PR [#1](https://github.com/Sahvendra7/Sahvendra7/pull/1) in [Sahvendra7/Sahvendra7](https://github.com/Sahvendra7/Sahvendra7)
+3. 💪 Opened PR [#3564](https://github.com/oauth2-proxy/oauth2-proxy/pull/3564) in [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy)
+4. 💪 Opened PR [#8](https://github.com/crajah/post-graph-rag/pull/8) in [crajah/post-graph-rag](https://github.com/crajah/post-graph-rag)
 <!--END_SECTION:activity-->
 
 <picture>
