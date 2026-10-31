@@ -1,94 +1,87 @@
-<div align="center">
+<a href="https://github.com/Sahvendra7">
+  <img src="assets/hero.svg" width="100%" alt="Sahvendra. AI may propose. Deterministic code decides. Backend and systems engineer at IIT Kharagpur. An animated trace moves from agent intent through retrieve, grade, verify sha-256 and policy to approved." />
+</a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+Sahvendra;Backend+%26+Systems+Engineer;AI+%2F+ML+Enthusiast;B.Tech+%40+IIT+Kharagpur)](https://git.io/typing-svg)
-
-**Building reliable backend systems, AI agents, and scalable infrastructure.**
-
-</div>
-
----
-
-### 📡 Current Focus
-
-I focus on designing systems where AI is powerful but observable—ensuring that real-world operations remain bounded by clear, deterministic rules.
+### What I work on
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong>🏗️ Agent Workflows & RAG</strong><br/>
-      Deterministic claim derivation, registry ground-truth, corrective RAG, and LangGraph pipelines.
+      <strong>Agent workflows and RAG</strong><br/>
+      Deterministic claim derivation, registry ground truth, corrective RAG and LangGraph pipelines.
     </td>
     <td width="50%" valign="top">
-      <strong>⚙️ Backend Architecture</strong><br/>
-      Low-latency, scalable APIs with Python (FastAPI), Node.js, and reverse-proxy auth patterns.
+      <strong>Backend architecture</strong><br/>
+      Low-latency APIs in Python (FastAPI) and Node.js, with reverse-proxy auth patterns.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <strong>🛡️ Systems & Security</strong><br/>
-      Zero-trust payment gateways, cryptographic audit trails, rate limiting, and UDP networking.
+      <strong>Systems and security</strong><br/>
+      Zero-trust payment gateways, cryptographic audit trails, rate limiting and UDP networking.
     </td>
     <td width="50%" valign="top">
-      <strong>🌐 Open Source Engineering</strong><br/>
-      Contributing upstream to JVM/Kotlin agent harnesses, GraphRAG engines, and auth proxies.
+      <strong>Open source</strong><br/>
+      Upstream work on Kotlin agent harnesses, GraphRAG engines and auth proxies.
     </td>
   </tr>
 </table>
 
----
+### Things I've built
 
-### 💻 Tech Stack
+Each card shows how the project works. Amber is model output, blue is data, green is a deterministic check.
 
-*Technologies I work with daily, organized by domain.*
+<p>
+  <a href="https://github.com/Sahvendra7/signalpost-agent"><img src="assets/projects/signalpost-agent.svg" width="49%" alt="Signalpost Agent: research agent whose claims are verified against the Brønnøysund registry with SHA-256 provenance." /></a>
+  <a href="https://github.com/Sahvendra7/corrective-RAG-academic-analyser"><img src="assets/projects/corrective-rag.svg" width="49%" alt="Corrective RAG Analyzer: grades retrievals, falls back to web search and checks for hallucination." /></a>
+  <a href="https://github.com/Sahvendra7/VILR"><img src="assets/projects/vilr.svg" width="49%" alt="VILR: zero-trust authorization gateway for agent-driven payments." /></a>
+  <a href="https://github.com/Sahvendra7/plivo-systems-24MI10091"><img src="assets/projects/udp-media.svg" width="49%" alt="UDP Media Delivery: reliable real-time media over UDP under packet loss and delay." /></a>
+  <a href="https://github.com/Sahvendra7/Rate-Limiter"><img src="assets/projects/rate-limiter.svg" width="49%" alt="Rate-Limiter: distributed rate limiting with token buckets, sliding windows and idempotency." /></a>
+</p>
 
-**Languages & Systems:** <br/>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+### Open source contributions
 
-**Backend & Frameworks:** <br/>
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white)
-
-**AI & Knowledge Systems:** <br/>
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-000000?style=flat-square&logo=meta&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlebard&logoColor=white)
-
-**Databases & Infrastructure:** <br/>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
----
-
-### 🚀 Featured Projects
-
-| Project | Description | Technologies |
+| Project | Upstream | What I worked on |
 | :--- | :--- | :--- |
-| 🕵️ **[Signalpost Agent](https://github.com/Sahvendra7/signalpost-agent)** | Resilient autonomous research agent emitting deterministic claims with Brønnøysund registry verification and SHA-256 byte provenance. | `Python`, `uv`, `Data Pipelines` |
-| 📚 **[Corrective RAG Analyzer](https://github.com/Sahvendra7/corrective-RAG-academic-analyser)** | Academic paper analyzer using corrective RAG, retrieval grading, web-search fallback, and hallucination checks. | `Python`, `FastAPI`, `LangGraph`, `FAISS` |
-| 🛡️ **[VILR](https://github.com/Sahvendra7/VILR)** | Zero-trust authorization gateway for agent-driven payments, separating AI intent from deterministic payment approval. | `Python`, `Redis`, `Docker`, `OPA` |
-| ⚙️ **[UDP Media Delivery](https://github.com/Sahvendra7/plivo-systems-24MI10091)** | Reliable real-time UDP media delivery implementation addressing packet loss and delay constraints. | `C`, `Python`, `Makefile` |
-| 🚦 **[Rate-Limiter](https://github.com/Sahvendra7/Rate-Limiter)** | High-throughput distributed rate limiting implementation exploring token buckets, sliding windows, and idempotency. | `Python`, `Redis` |
-
----
-
-### 🌐 Open Source Contributions
-
-*Actively contributing to open-source developer tooling, agent harnesses, and RAG ecosystems:*
-
-| Project | Upstream Repository | Contribution Focus |
-| :--- | :--- | :--- |
-| **BossConsole** | [`risa-labs-inc/BossConsole`](https://github.com/risa-labs-inc/BossConsole) | Plugin lifecycle / coroutine teardown, MCP observation contracts, crash containment, and UI thread safety. |
-| **Post-Graph RAG** | [`crajah/post-graph-rag`](https://github.com/crajah/post-graph-rag) | Temporal interval query support for months, half-years, and fiscal periods in PostgreSQL-native GraphRAG. |
+| **BossConsole** | [`risa-labs-inc/BossConsole`](https://github.com/risa-labs-inc/BossConsole) | Plugin lifecycle and coroutine teardown, MCP observation contracts, crash containment and UI thread safety. |
+| **Post-Graph RAG** | [`crajah/post-graph-rag`](https://github.com/crajah/post-graph-rag) | Temporal interval queries for months, half-years and fiscal periods in PostgreSQL-native GraphRAG. |
 | **RAG-framework** | [`adaumsilva/RAG-framework`](https://github.com/adaumsilva/RAG-framework) | Recursive character text chunking and OpenAI embedder integration. |
-| **OAuth2 Proxy** | [`oauth2-proxy/oauth2-proxy`](https://github.com/oauth2-proxy/oauth2-proxy) | Identity header propagation mechanisms for NGINX Ingress forward authentication. |
+| **OAuth2 Proxy** | [`oauth2-proxy/oauth2-proxy`](https://github.com/oauth2-proxy/oauth2-proxy) | Identity header propagation for NGINX Ingress forward authentication. |
 
----
+### Stack
 
-### 📊 GitHub Stats
+<img src="https://skillicons.dev/icons?i=py,cpp,c,kotlin,ts,js,fastapi,nodejs,postgres,redis,docker,git,linux&perline=13" alt="Python, C++, C, Kotlin, TypeScript, JavaScript, FastAPI, Node.js, PostgreSQL, Redis, Docker, Git, Linux" />
 
-<div align="center">
+![LangGraph](https://img.shields.io/badge/LangGraph-0D1626?style=flat-square&logo=langchain&logoColor=FBBF24)
+![Gemini](https://img.shields.io/badge/Gemini-0D1626?style=flat-square&logo=googlegemini&logoColor=FBBF24)
+![FAISS](https://img.shields.io/badge/FAISS-0D1626?style=flat-square&logo=meta&logoColor=7DD3FC)
+![pgvector](https://img.shields.io/badge/pgvector-0D1626?style=flat-square&logo=postgresql&logoColor=7DD3FC)
+![Open Policy Agent](https://img.shields.io/badge/Open_Policy_Agent-0D1626?style=flat-square&logo=openpolicyagent&logoColor=6EE7A8)
+![uv](https://img.shields.io/badge/uv-0D1626?style=flat-square&logo=astral&logoColor=6EE7A8)
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sahvendra7&theme=tokyonight" alt="Sahvendra's Profile Summary" />
+### Activity
 
-<br/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sahvendra7&theme=tokyonight" width="100%" alt="Contribution history" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sahvendra7&theme=tokyonight" alt="Top Languages" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sahvendra7&theme=tokyonight" alt="GitHub Stats" />
+<p>
+  <img src="https://streak-stats.demolab.com?user=Sahvendra7&background=0D1626&border=2A3B57&stroke=2A3B57&ring=6EE7A8&fire=FBBF24&currStreakNum=E6EDF7&sideNums=E6EDF7&currStreakLabel=6EE7A8&sideLabels=8CA0BD&dates=8CA0BD" height="180" alt="Contribution streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sahvendra7&theme=tokyonight" height="180" alt="GitHub stats" />
+</p>
 
-</div>
+<details>
+  <summary>Languages</summary>
+  <br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sahvendra7&theme=tokyonight" height="180" alt="Repositories per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Sahvendra7&theme=tokyonight" height="180" alt="Most committed languages" />
+</details>
+
+**Latest pull requests and issues**
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sahvendra7/Sahvendra7/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sahvendra7/Sahvendra7/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/Sahvendra7/Sahvendra7/output/snake-dark.svg" width="100%" alt="A snake eating my contribution graph" />
+</picture>
