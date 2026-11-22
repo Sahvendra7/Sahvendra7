@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 import uharfbuzz as hb
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -114,7 +115,7 @@ def svg(w: int, h: int, title: str, body: str, style: str = "") -> str:
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
         f'viewBox="0 0 {w} {h}" role="img" aria-labelledby="t">'
-        f"<title id=\"t\">{title}</title>"
+        f"<title id=\"t\">{escape(title)}</title>"
         + (f"<style>{style}</style>" if style else "")
         + body
         + "</svg>\n"
@@ -261,7 +262,7 @@ PROJECTS = [
         "slug": "proofloop",
         "name": "ProofLoop",
         "desc": "Measures skin before and after one product, and reports a change only once "
-                "it clears that camera's own scan-to-scan noise. Otherwise it says so.",
+                "it clears normal scan-to-scan noise. Otherwise it says it cannot tell yet.",
         "trace": [("scan", "data"), ("noise band", "check"), ("verdict", "check")],
         "tech": "FastAPI, Next.js, YouCam",
     },

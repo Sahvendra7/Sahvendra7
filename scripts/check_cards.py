@@ -1,15 +1,23 @@
-"""Fail loudly on card content that would render wrong.
+"""Fail loudly on anything that would render wrong or go missing.
 
-Both failure modes here are silent in build_assets.py: wrap() drops any
-description past three lines, and an over-wide trace row just runs off the
-card edge. Run this before build_assets.py.
+Every failure guarded here is silent in build_assets.py: wrap() drops any
+description past three lines, an over-wide trace row runs off the card edge,
+an unescaped character makes the SVG unparseable, and a README pointing at a
+slug the script no longer writes is a broken image on the live profile.
+
+Run from the repository root, as a script so that scripts/ is on sys.path:
+
+    python3 scripts/check_cards.py
 """
 
 from __future__ import annotations
 
+import pathlib
+import re
 import sys
+import xml.etree.ElementTree as ET
 
-from build_assets import BODY, DISPLAY_SEMI, MONO_MED, PROJECTS, wrap
+from build_assets import BODY, DISPLAY_SEMI, MONO_MED, OUT, PROJECTS, card, wrap
 
 W, PAD, NPAD, ARROW = 600, 30, 12, 26
 INNER = W - 2 * PAD
@@ -42,15 +50,56 @@ def problems(p: dict) -> list[str]:
     return out
 
 
+def renders(p: dict) -> list[str]:
+    """Render the card and parse it, so unescaped copy cannot ship."""
+    try:
+        ET.fromstring(card(p))
+    except ET.ParseError as exc:
+        return [f"renders to unparseable SVG ({exc}) — check & < > in name/desc/tech"]
+    return []
+
+
+def readme_refs() -> list[str]:
+    """Every referenced card must exist, and every card must be referenced."""
+    readme = pathlib.Path("README.md")
+    if not readme.exists():
+        return ["README.md not found — run from the repository root"]
+
+    refs = set(re.findall(r'src="(assets/[^"]+)"', readme.read_text(encoding="utf-8")))
+    out = []
+
+    for ref in sorted(refs):
+        if not pathlib.Path(ref).exists():
+            out.append(f"README references {ref}, which no script writes (broken image)")
+
+    expected = {f"{OUT.name}/projects/{p['slug']}.svg" for p in PROJECTS}
+    for ref in sorted(expected - refs):
+        out.append(f"{ref} is generated but the README never shows it")
+
+    carddir = pathlib.Path(OUT / "projects")
+    if carddir.exists():
+        for f in sorted(carddir.iterdir()):
+            rel = f"{OUT.name}/projects/{f.name}"
+            if rel not in expected:
+                out.append(f"{rel} is left over — no PROJECTS entry generates it")
+
+    return out
+
+
 def main() -> int:
     failed = False
     for p in PROJECTS:
-        for msg in problems(p):
+        for msg in problems(p) + renders(p):
             print(f"FAIL {p['slug']}: {msg}", file=sys.stderr)
             failed = True
+
+    for msg in readme_refs():
+        print(f"FAIL readme: {msg}", file=sys.stderr)
+        failed = True
+
     if failed:
         return 1
-    print(f"ok: {len(PROJECTS)} cards")
+    print(f"ok: {len(PROJECTS)} cards, README refs consistent")
     return 0
 
 
