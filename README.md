@@ -9,8 +9,7 @@
     </td>
     <td valign="middle">
       <strong>Backend and systems engineer at IIT Kharagpur.</strong><br/>
-      I build agent workflows where AI may propose and deterministic code decides.<br/><br/>
-      <a href="https://github.com/Sahvendra7?replay=1"><img src="assets/lets-play.svg" height="60" alt="Let's Play: replay the clip" /></a>
+      I build agent workflows where AI may propose and deterministic code decides.
     </td>
   </tr>
 </table>
