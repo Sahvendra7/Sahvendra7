@@ -32,12 +32,18 @@
 Each card shows how the project works. Amber is model output, blue is data, green is a deterministic check.
 
 <p>
+  <a href="https://github.com/Sahvendra7/Turant"><img src="assets/projects/turant.svg" width="49%" alt="Turant: tells a scam victim in India what to do in the first hour and writes the 1930 call sheet, with every number validated by deterministic code." /></a>
+  <a href="https://github.com/Sahvendra7/Between"><img src="assets/projects/between.svg" width="49%" alt="Between: an AI reads a co-parenting agreement once and must quote each clause; plain code decides every child expense and PayPal confirms every payment." /></a>
+  <a href="https://github.com/Sahvendra7/Kitty"><img src="assets/projects/kitty.svg" width="49%" alt="Kitty: each friend's private agent reads only their own bank statement, and ordinary code settles the group from the claims they release." /></a>
+  <a href="https://github.com/Sahvendra7/ProofLoop"><img src="assets/projects/proofloop.svg" width="49%" alt="ProofLoop: reports a skincare change only once it clears that camera's own scan-to-scan noise, and otherwise says it cannot tell yet." /></a>
   <a href="https://github.com/Sahvendra7/signalpost-agent"><img src="assets/projects/signalpost-agent.svg" width="49%" alt="Signalpost Agent: research agent whose claims are verified against the Brønnøysund registry with SHA-256 provenance." /></a>
   <a href="https://github.com/Sahvendra7/corrective-RAG-academic-analyser"><img src="assets/projects/corrective-rag.svg" width="49%" alt="Corrective RAG Analyzer: grades retrievals, falls back to web search and checks for hallucination." /></a>
-  <a href="https://github.com/Sahvendra7/VILR"><img src="assets/projects/vilr.svg" width="49%" alt="VILR: zero-trust authorization gateway for agent-driven payments." /></a>
-  <a href="https://github.com/Sahvendra7/plivo-systems-24MI10091"><img src="assets/projects/udp-media.svg" width="49%" alt="UDP Media Delivery: reliable real-time media over UDP under packet loss and delay." /></a>
-  <a href="https://github.com/Sahvendra7/Rate-Limiter"><img src="assets/projects/rate-limiter.svg" width="49%" alt="Rate-Limiter: distributed rate limiting with token buckets, sliding windows and idempotency." /></a>
 </p>
+
+[Between](https://between-app-iota.vercel.app) runs live against the PayPal sandbox. Also:
+[VILR](https://github.com/Sahvendra7/VILR), a zero-trust authorization gateway for agent-driven payments &middot;
+[Rate-Limiter](https://github.com/Sahvendra7/Rate-Limiter), token buckets and sliding windows on Redis &middot;
+[UDP Media Delivery](https://github.com/Sahvendra7/plivo-systems-24MI10091), reliable real-time media over lossy UDP.
 
 ### Open source contributions
 
