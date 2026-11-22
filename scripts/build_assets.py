@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 import uharfbuzz as hb
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -114,7 +115,7 @@ def svg(w: int, h: int, title: str, body: str, style: str = "") -> str:
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
         f'viewBox="0 0 {w} {h}" role="img" aria-labelledby="t">'
-        f"<title id=\"t\">{title}</title>"
+        f"<title id=\"t\">{escape(title)}</title>"
         + (f"<style>{style}</style>" if style else "")
         + body
         + "</svg>\n"
@@ -234,6 +235,38 @@ def hero() -> str:
 
 PROJECTS = [
     {
+        "slug": "turant",
+        "name": "Turant",
+        "desc": "Tells a scam victim in India what to do in the first hour, then writes "
+                "the 1930 call sheet and complaint. Code validates every number it quotes.",
+        "trace": [("evidence", "data"), ("read", "model"), ("validate", "check"), ("fact lock", "check")],
+        "tech": "Next.js, Qwen 3.8 27B",
+    },
+    {
+        "slug": "between",
+        "name": "Between",
+        "desc": "An AI reads a co-parenting agreement once and must quote each clause. "
+                "Plain code decides every expense; PayPal confirms every payment.",
+        "trace": [("agreement", "data"), ("propose rules", "model"), ("verify quote", "check"), ("paypal check", "check")],
+        "tech": "FastAPI, Next.js, PayPal",
+    },
+    {
+        "slug": "kitty",
+        "name": "Kitty",
+        "desc": "Each friend's private agent reads only their own bank statement. Just the "
+                "claims they release reach the group, where ordinary code does the sums.",
+        "trace": [("statement", "data"), ("private agent", "model"), ("released claim", "check"), ("clerk", "check")],
+        "tech": "FastAPI, websockets, uv",
+    },
+    {
+        "slug": "proofloop",
+        "name": "ProofLoop",
+        "desc": "Measures skin before and after one product, and reports a change only once "
+                "it clears normal scan-to-scan noise. Otherwise it says it cannot tell yet.",
+        "trace": [("scan", "data"), ("noise band", "check"), ("verdict", "check")],
+        "tech": "FastAPI, Next.js, YouCam",
+    },
+    {
         "slug": "signalpost-agent",
         "name": "Signalpost Agent",
         "desc": "Autonomous research agent that emits deterministic claims, each verified "
@@ -248,30 +281,6 @@ PROJECTS = [
                 "search when they are weak, and checks answers for hallucination.",
         "trace": [("retrieve", "data"), ("grade", "model"), ("web fallback", "data"), ("check", "check")],
         "tech": "FastAPI, LangGraph, FAISS",
-    },
-    {
-        "slug": "vilr",
-        "name": "VILR",
-        "desc": "Zero-trust authorization gateway for agent-driven payments. The AI states "
-                "an intent; a deterministic policy engine decides whether money moves.",
-        "trace": [("intent", "model"), ("opa policy", "check"), ("pay", "check")],
-        "tech": "Python, Redis, OPA, Docker",
-    },
-    {
-        "slug": "udp-media",
-        "name": "UDP Media Delivery",
-        "desc": "Reliable real-time media over UDP, recovering from packet loss and "
-                "reordering while staying inside a strict delay budget.",
-        "trace": [("packet", "data"), ("detect loss", "data"), ("recover", "check")],
-        "tech": "C, Python, Make",
-    },
-    {
-        "slug": "rate-limiter",
-        "name": "Rate-Limiter",
-        "desc": "High-throughput distributed rate limiting with token buckets, sliding "
-                "windows and idempotency keys, backed by Redis.",
-        "trace": [("request", "data"), ("token bucket", "check"), ("allow / 429", "check")],
-        "tech": "Python, Redis",
     },
 ]
 
