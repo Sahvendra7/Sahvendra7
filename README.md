@@ -5,7 +5,7 @@
 <table>
   <tr>
     <td width="240" valign="middle" align="center">
-      <img src="assets/avatar.png" width="220" alt="Anime avatar of a bearded swordsman with an eyepatch, seated calmly in a white and purple haori." />
+      <a href="https://pin.it/2ZcoFWg9B"><img src="assets/avatar-play.svg" width="220" alt="Anime avatar of a bearded swordsman with an eyepatch, seated calmly in a white and purple haori, with a play button that opens a Pinterest pin." /></a>
     </td>
     <td valign="middle">
       <strong>Backend and systems engineer at IIT Kharagpur.</strong><br/>
