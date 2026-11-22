@@ -2,6 +2,18 @@
   <img src="assets/hero.svg" width="100%" alt="Sahvendra. AI may propose. Deterministic code decides. Backend and systems engineer at IIT Kharagpur. An animated trace moves from agent intent through retrieve, grade, verify sha-256 and policy to approved." />
 </a>
 
+<table>
+  <tr>
+    <td width="240" valign="middle" align="center">
+      <img src="assets/avatar.png" width="220" alt="Anime avatar of a bearded swordsman with an eyepatch, seated calmly in a white and purple haori." />
+    </td>
+    <td valign="middle">
+      <strong>Backend and systems engineer at IIT Kharagpur.</strong><br/>
+      I build agent workflows where AI may propose and deterministic code decides.
+    </td>
+  </tr>
+</table>
+
 ### What I work on
 
 <table>
