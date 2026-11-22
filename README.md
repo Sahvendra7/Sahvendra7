@@ -5,16 +5,12 @@
 <table>
   <tr>
     <td width="240" valign="middle" align="center">
-      <img src="assets/avatar.png" width="220" alt="Anime avatar of a bearded swordsman with an eyepatch, seated calmly in a white and purple haori." />
+      <img src="assets/avatar-play.gif" width="220" alt="Kyoraku Shunsui from Bleach, seated calmly. A short clip plays in this frame, then the portrait returns." />
     </td>
     <td valign="middle">
       <strong>Backend and systems engineer at IIT Kharagpur.</strong><br/>
       I build agent workflows where AI may propose and deterministic code decides.<br/><br/>
-      <details>
-        <summary><img src="assets/lets-play.svg" height="52" alt="Let's Play" /></summary>
-        <br/>
-        <img src="assets/play.gif" width="260" alt="Animated anime clip." />
-      </details>
+      <a href="https://github.com/Sahvendra7?replay=1"><img src="assets/lets-play.svg" height="60" alt="Let's Play: replay the clip" /></a>
     </td>
   </tr>
 </table>
